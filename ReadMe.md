@@ -1,37 +1,5 @@
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">Ape Frame</h1>
-<h4 align="center">基于SpringBoot开发的轻量级框架</h4>
-<p align="center">
-<a href='https://gitee.com/classicChickenWings/ape-frame/stargazers'>
-<img src='https://gitee.com/classicChickenWings/ape-frame/badge/star.svg?theme=dark' alt='star'>
-</a>
-<a href="https://gitee.com/classicChickenWings/ape-frame">
-<img src="https://img.shields.io/badge/version-v1.0-brightgreen.svg">
-</a>
-<a href="https://gitee.com/classicChickenWings/ape-frame">
-<img src="https://img.shields.io/badge/微信-jingdianjichi-brightgreen.svg">
-</a>
-</p>
-
-## ✨项目简介
-ape-frame，ape是“猿”的意思，正好符合我们程序猿的称号！我希望未来这个框架是专属于我们程序猿的首选开发框架。
-
-一直想做一款适用于中小企业的轻量级快速开发框架，涵盖平时业务开发的常用场景，做到开箱即用。用户可根据自身情况选择组件来进行使用。采取组件化开发模式。
-
-比如用户需要redis，则选择redis组件，需要websocket，则引入websocket组件，用户自身不需要再开发什么，只需要按照组件规则进行使用即可。
-
-同时，有些经典的工具以及经典的设计模式代码，提供了大量实例参考，用户的业务场景一旦用到，就可以直接使用。
-
-项目整体采用maven结构开发，封装了大量的模块，彼此解耦。满足用户日常开发需要。
-
-希望大家可以帮忙点点Star，您的Star就是对我最大的支持。
 
 ## 🔥内置项目模块
-### ape-cloud
-微服务模块更新中，目前具备以下模块
-* ape-cloud-eureka：eureka服务注册组件
-* ape-cloud-eureka-server：eureka服务端用于服务治理与服务发现
-* ape-cloud-home：用于微服务调用案例的首页微服务
-* ape-cloud-sku：用于微服务调用案例的sku微服务
 ### ape-common
 * ape-common-job：分布式任务调度组件
 * ape-common-log：日志组件，提供日志切面自动记录及异步日志提升性能
@@ -93,25 +61,3 @@ demo里提供了大量的实例，教大家如何直接使用这个项目框架�
 * 集成springboottest
 * 服务预热
 * 分布式任务调度xxljob集成
-
-## ☀️添砖加瓦
-欢迎大家提issue一起完善，以及提供各种宝贵建议，持续做成商业化开发框架。
-如果您感觉我们的代码有需要优化的地方或者有更好的方案欢迎随时提pr。
-可添加微信进行交流，鸡翅老哥会拉你进入项目群。
-
-如果您想看完整的教学视频，可以加入粉丝群了解学习。
-<div>
-<div style="display: inline-block">
-<p>
-<img height="300px" src="https://s3.bmp.ovh/imgs/2023/01/08/1c97491276151891.jpg">
-</p>
-</div>
-</div>
-
-
-# 🐾贡献代码的步骤
-1. 在Gitee上fork项目到自己的repo
-2. 把fork过去的项目也就是你的项目clone到你的本地
-3. 修改代码
-4. commit后push到自己的库
-5. 登录Gitee在你仓库首页可以看到一个 pull request 按钮，点击它，填写一些说明信息，然后提交即可。 等待维护者合并
