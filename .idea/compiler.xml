@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ape-common-test" />
+        <module name="ape-cloud-sku" />
+        <module name="ape-common-web" />
+        <module name="ape-common-starter" />
+        <module name="ape-cloud-eureka-server" />
+        <module name="ape-common-websocket" />
+        <module name="ape-cloud-eureka" />
+        <module name="ape-common-mybatisplus" />
+        <module name="ape-common-redis" />
+        <module name="ape-demo" />
+        <module name="ape-common-log" />
+        <module name="ape-cloud-home" />
+        <module name="ape-common-swagger" />
+        <module name="ape-common-job" />
+        <module name="ape-common-tool" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
